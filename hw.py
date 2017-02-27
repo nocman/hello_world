@@ -2,7 +2,7 @@
 def hello():
   '''Hello-jello world. Nothing to see here, move along!'''
 
-  hellostring = 'Hello' + ' ' + 'world!'
+  hellostring = 'Hello cruel world!'
   print("%s" % hellostring)
 
 if __name__ == '__main__':
