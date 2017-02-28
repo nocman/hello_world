@@ -9,5 +9,14 @@ def hello(who=None):
 
   print("%s" % message)
 
+def add_two(a,b):
+  '''It adds two arguments.'''
+
+  if type(a) is int and type(b) is int:
+    print(a+b)
+  else:
+    print('We\'re doomed!')
+
 if __name__ == '__main__':
   hello()
+  add_two(2,1)
