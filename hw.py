@@ -3,11 +3,11 @@ def hello(who=None):
   '''Hello-jello world. Nothing to see here, move along!'''
 
   if who is not None:
-    hellostring = 'Hello ' + str(who) + '!'
+    message = 'Hello ' + str(who) + '!'
   else:
-    hellostring = 'Who\'s your daddy?!'
+    message = 'Who\'s your daddy?!'
 
-  print("%s" % hellostring)
+  print("%s" % message)
 
 if __name__ == '__main__':
   hello()
