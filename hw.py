@@ -5,7 +5,7 @@ def hello(who=None):
   if who is not None:
     hellostring = 'Hello ' + str(who) + '!'
   else:
-    hellostring = 'Hello cruel world!'
+    hellostring = 'Who\'s your daddy?!'
 
   print("%s" % hellostring)
 
